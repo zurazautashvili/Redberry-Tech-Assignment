@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+.hero {
+  display: grid;
+  justify-content: center;
+}
+
+.hero-logo {
+  margin-bottom: 11rem;
+  margin-top: 7rem;
+}
+
+.hero-img {
+  padding-bottom: 10rem;
+}
+
+.btn--primary {
+  width: 100%;
+  font-size: 2rem;
+  background-color: #62a1eb;
+  color: white;
+  border-radius: 8px;
+  border: 0;
+  padding: 1.5rem 2.7rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
