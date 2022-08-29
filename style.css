@@ -20,6 +20,7 @@ html {
 .hero-logo {
   margin-bottom: 11rem;
   margin-top: 7rem;
+  margin-left: 9rem;
 }
 
 .hero-img {
@@ -36,4 +37,8 @@ html {
   padding: 1.5rem 2.7rem;
   margin-bottom: 2rem;
   text-align: center;
+}
+input,
+label {
+  display: block;
 }
