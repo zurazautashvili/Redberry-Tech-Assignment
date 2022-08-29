@@ -39,6 +39,8 @@ html {
   text-align: center;
 }
 input,
-label {
+label,
+select {
   display: block;
+  width: 100%;
 }
