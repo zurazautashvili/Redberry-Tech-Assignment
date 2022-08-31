@@ -67,7 +67,13 @@ label {
 }
 
 .btn--form {
-  /* width: 10rem;
-  height: 3rem; */
+  width: 13rem;
+  height: 4.5rem;
   font-size: 1.8rem;
+  background: var(--color-primary);
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  position: absolute;
+  right: 1.6rem;
 }
