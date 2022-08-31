@@ -12,6 +12,11 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
+}
+
 .hero {
   display: grid;
   justify-content: center;
@@ -43,4 +48,26 @@ label,
 select {
   display: block;
   width: 100%;
+}
+
+/* CSS styles for form.html. Page of coworker's info page. */
+label {
+  font-size: 1.8rem;
+}
+.heading {
+  position: relative;
+  top: 2rem;
+}
+.form-heading {
+  display: inline-block;
+  position: relative;
+  left: 7.5rem;
+  bottom: 0.4rem;
+  font-size: 1.6rem;
+}
+
+.btn--form {
+  /* width: 10rem;
+  height: 3rem; */
+  font-size: 1.8rem;
 }
